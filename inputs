@@ -1,33 +1,19 @@
+NER (Reconhecimento de Entidade Nomeada)
+Uma captura de tela de um reconhecimento de entidade nomeada na Fábrica de IA do Azure.
 
-Exemplo de descrição de imagem
-A resposta JSON a seguir ilustra o que a API Analyze Image retorna ao descrever a imagem de exemplo com base em seus recursos visuais.
+O reconhecimento de entidade nomeada identifica entradas diferentes no texto e as categoriza em tipos predefinidos.
 
-Uma imagem em preto e branco dos edifícios em Manhattan
-{
-   "description":{
-      "tags":[
-         "outdoor",
-         "city",
-         "white"
-      ],
-      "captions":[
-         {
-            "text":"a city with tall buildings",
-            "confidence":0.48468858003616333
-         }
-      ]
-   },
-   "requestId":"7e5e5cac-ef16-43ca-a0c4-02bd49d379e9",
-   "metadata":{
-      "height":300,
-      "width":239,
-      "format":"Png"
-   },
-   "modelVersion":"2021-05-01"
-}
+Detecção de PII e PHI (informações de identificação pessoal e de saúde, respectivamente)
 
+A detecção de PII identifica entidades em textos e conversas (chat ou transcrições) associadas a indivíduos.
 
-Usar a API
-O recurso de descrição de imagem faz parte da API Analisar Imagem. Você pode chamar essa API por meio de um SDK nativo ou por meio de chamadas REST. Inclua Description no parâmetro de consulta visualFeatures. Em seguida, quando receber a resposta JSON completa, basta analisar a cadeia de caracteres para o conteúdo da seção "description".
+Detecção de idioma
+Uma captura de tela da detecção de idioma na Fábrica de IA do Azure.
 
-Guia de início rápido: bibliotecas de clientes ou API REST da Análise de Imagem
+A detecção de idioma avalia o texto e detecta uma ampla gama de idiomas e dialetos variantes.
+
+Análise de Sentimento e a mineração de opiniões
+Uma captura de tela da análise de sentimento na Fábrica de IA do Azure.
+
+A análise de sentimento e a mineração de opiniões são recursos pré-configurados que ajudam você a descobrir o que as pessoas pensam da sua marca ou tópico por meio da mineração de texto em busca de pistas sobre sentimentos positivos ou negativos e que podem associá-los a aspectos específicos do texto.
+
