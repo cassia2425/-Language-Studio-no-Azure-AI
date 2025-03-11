@@ -9,8 +9,8 @@ O recurso de análise de sentimento fornece rótulos de sentimentos (como "negat
 Quando usar esse recurso nos seus aplicativos, confira a seguinte documentação de referência e as amostras de Linguagem de IA do Azure:
 
 Opção/idioma de desenvolvimento	Documentação de referência	Exemplos
-API REST	Documentação da API REST	
-C#	Documentação do C#	Exemplos do C#
-Java	Documentação do Java	Exemplos do Java
-JavaScript	Documentação do JavaScript	Exemplos de JavaScript
-Python	Documentação do Python	Exemplos em Python
+### -API REST	Documentação da API REST	
+### -C#	Documentação do C#	Exemplos do C#
+### -Java	Documentação do Java	Exemplos do Java
+### -JavaScript	Documentação do JavaScript	Exemplos de JavaScript
+### -Python	Documentação do Python	Exemplos em Python
