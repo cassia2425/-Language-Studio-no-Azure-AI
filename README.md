@@ -14,3 +14,18 @@ Opção/idioma de desenvolvimento	Documentação de referência	Exemplos
 ### -Java	Documentação do Java	Exemplos do Java
 ### -JavaScript	Documentação do JavaScript	Exemplos de JavaScript
 ### -Python	Documentação do Python	Exemplos em Python
+
+
+Migrar da Análise de Texto, do QnA Maker ou do Reconhecimento Vocal
+A Linguagem de IA do Azure unifica três serviços de linguagem individuais em serviços de IA do Azure: Análise de Texto, QnA Maker e LUIS (Reconhecimento Vocal). Se você estiver usando esses três serviços, poderá migrar facilmente para a nova Linguagem de IA do Azure. Para obter instruções, confira Migrar para a Linguagem de IA do Azure.
+
+Tutoriais
+Após ter tido a chance de começar a usar o serviço de Linguagem, experimente os tutoriais que mostram como abordar diferentes cenários.
+
+Extrair frases-chave do texto armazenado no Power BI
+Use o Power Automate para classificar informações em Microsoft Excel
+Usar o Flask para traduzir texto, analisar o sentimento e sintetizar fala
+Usar os serviços de IA do Azure em aplicativos de tela
+Criar um bot de perguntas frequentes
+Exemplos de código adicionais
+Você pode encontrar mais exemplos de código em GitHub para as seguintes linguagens de programação:
