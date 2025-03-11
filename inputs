@@ -3,3 +3,31 @@ Exemplo de descrição de imagem
 A resposta JSON a seguir ilustra o que a API Analyze Image retorna ao descrever a imagem de exemplo com base em seus recursos visuais.
 
 Uma imagem em preto e branco dos edifícios em Manhattan
+{
+   "description":{
+      "tags":[
+         "outdoor",
+         "city",
+         "white"
+      ],
+      "captions":[
+         {
+            "text":"a city with tall buildings",
+            "confidence":0.48468858003616333
+         }
+      ]
+   },
+   "requestId":"7e5e5cac-ef16-43ca-a0c4-02bd49d379e9",
+   "metadata":{
+      "height":300,
+      "width":239,
+      "format":"Png"
+   },
+   "modelVersion":"2021-05-01"
+}
+
+
+Usar a API
+O recurso de descrição de imagem faz parte da API Analisar Imagem. Você pode chamar essa API por meio de um SDK nativo ou por meio de chamadas REST. Inclua Description no parâmetro de consulta visualFeatures. Em seguida, quando receber a resposta JSON completa, basta analisar a cadeia de caracteres para o conteúdo da seção "description".
+
+Guia de início rápido: bibliotecas de clientes ou API REST da Análise de Imagem
