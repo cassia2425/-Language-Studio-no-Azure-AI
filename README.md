@@ -1,4 +1,4 @@
-# Language-Studio-no-Azure-AI
+# Language Studio no Azure AI
 ##  Analise de semtimento
 
 Análise de sentimento
